@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "contexthub": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "c:\\Users\\HumzaVohra\\Downloads\\contexthub-web\\contexthub-web\\server",
+        "python",
+        "-m",
+        "mcp_server.server"
+      ],
+      "env": {
+        "CH_MCP_PERSONA": "citizen"
+      }
+    }
+  }
+}
